@@ -108,7 +108,11 @@
 	margin: 0;
 	padding-left: 50px;
 }
-.places .amenities .tv li {
+.places .amenities ul li {
+	margin: 0;	
+	padding: 0;
+}
+.places .amenities .tv {
 	list-style-image: url("images/icon_tv.png");
 	list-style-position: inside;
 
