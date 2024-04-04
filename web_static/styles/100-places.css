@@ -109,18 +109,17 @@
 	padding-left: 50px;
 }
 .places .amenities .tv li {
-	background-image: url("images/icon_tv.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	list-style-type: none;
-	vertical-align: middle;
+	list-style-image: url("images/icon_tv.png");
+	list-style-position: inside;
 
 }
 .places .amenities .wifi {
 	list-style-image: url("images/icon_wifi.png");
+	list-style-position: inside;
 }
 .places .amenities .pets {
 	list-style-image: url("images/icon_pets.png");
+	list-style-position: inside;
 }
 .reviews {
 	margin-top: 40px;
