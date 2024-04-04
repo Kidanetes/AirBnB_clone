@@ -108,14 +108,19 @@
 	margin: 0;
 	padding-left: 50px;
 }
-.places .amenities .tv {
-	list-style-image: url("images/icon_tv.png")
+.places .amenities .tv li {
+	background-image: url("images/icon_tv.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	list-style-type: none;
+	vertical-align: middle;
+
 }
 .places .amenities .wifi {
-	list-style-image: url("images/icon_wifi.png")
+	list-style-image: url("images/icon_wifi.png");
 }
 .places .amenities .pets {
-	list-style-image: url("images/icon_pets.png")
+	list-style-image: url("images/icon_pets.png");
 }
 .reviews {
 	margin-top: 40px;
