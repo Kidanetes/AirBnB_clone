@@ -106,24 +106,24 @@
 }
 .places .amenities ul {
 	margin: 0;
-	padding-left: 50px;
+	padding: 0; 
+	list-style-type: none;
 }
-.places .amenities ul li {
-	margin: 0;	
-	padding: 0;
+.places .amenities ul li{
+	padding: 10px 45px;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	background-size: 25px 25px;
 }
-.places .amenities .tv {
-	list-style-image: url("images/icon_tv.png");
-	list-style-position: inside;
 
+.places .amenities ul li.tv {
+	background-image: url("images/icon_tv.png");
 }
-.places .amenities .wifi {
-	list-style-image: url("images/icon_wifi.png");
-	list-style-position: inside;
+.places .amenities ul li.wifi {
+	background-image: url("images/icon_wifi.png");
 }
-.places .amenities .pets {
-	list-style-image: url("images/icon_pets.png");
-	list-style-position: inside;
+.places .amenities ul li.pets {
+	background-image: url("images/icon_pets.png");
 }
 .reviews {
 	margin-top: 40px;
